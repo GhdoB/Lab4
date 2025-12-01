@@ -24,42 +24,42 @@ public class Note implements Serializable {
 
     // Getters and setters
     public String getId() {
-        Log.d("Note", "getId() called, returning: " + id);
+        ///Log.d("Note", "getId() called, returning: " + id);
         return id;
     }
 
     public void setId(String id) {
-        Log.d("Note", "setId() called with: " + id);
+      //  Log.d("Note", "setId() called with: " + id);
         this.id = id;
     }
 
     public String getName() {
-        Log.d("Note", "getName() called, returning: " + name);
+        //Log.d("Note", "getName() called, returning: " + name);
         return name;
     }
 
     public void setName(String name) {
-        Log.d("Note", "setName() called with: " + name);
+        //Log.d("Note", "setName() called with: " + name);
         this.name = name;
     }
 
     public String getContent() {
-        Log.d("Note", "getContent() called");
+        //Log.d("Note", "getContent() called");
         return content;
     }
 
     public void setContent(String content) {
-        Log.d("Note", "setContent() called");
+        //Log.d("Note", "setContent() called");
         this.content = content;
     }
 
     public long getTimestamp() {
-        Log.d("Note", "getTimestamp() called, returning: " + timestamp);
+        //Log.d("Note", "getTimestamp() called, returning: " + timestamp);
         return timestamp;
     }
 
     public void setTimestamp(long timestamp) {
-        Log.d("Note", "setTimestamp() called with: " + timestamp);
+        //Log.d("Note", "setTimestamp() called with: " + timestamp);
         this.timestamp = timestamp;
     }
 }
